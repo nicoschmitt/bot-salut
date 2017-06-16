@@ -1,0 +1,38 @@
+{
+    "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json", 
+    "manifestVersion": "1.0",
+    "version": "1.0.0",
+    "id": "42d8f185-8059-4cf7-aad4-1b39235f3b36",
+    "packageName": "nicontoso.bot.salut",
+    "developer": {
+        "name": "Microsoft",
+        "websiteUrl": "https://www.microsoft.com",
+        "privacyUrl": "https://www.microsoft.com/privacy",
+        "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+    },
+    "name": {
+        "short": "salut"
+    },
+    "description": {
+        "short": "un bot gentil qui dit salut",
+        "full": "un bot gentil qui dit salut"
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.jpg"
+    },
+    "accentColor": "#60A18E",
+    "bots": [
+        {
+            "botId": "42d8f185-8059-4cf7-aad4-1b39235f3b36",
+            "scopes": [
+                "team",
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ]
+}
